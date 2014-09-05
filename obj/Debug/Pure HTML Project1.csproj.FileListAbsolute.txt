@@ -1,0 +1,5 @@
+c:\users\kpkeenan\documents\visual studio 2012\Projects\Pure HTML Project1\Pure HTML Project1\bin\Pure HTML Project1.dll
+c:\users\kpkeenan\documents\visual studio 2012\Projects\Pure HTML Project1\Pure HTML Project1\bin\Pure HTML Project1.pdb
+c:\users\kpkeenan\documents\visual studio 2012\Projects\Pure HTML Project1\Pure HTML Project1\obj\Debug\Pure HTML Project1.csprojResolveAssemblyReference.cache
+c:\users\kpkeenan\documents\visual studio 2012\Projects\Pure HTML Project1\Pure HTML Project1\obj\Debug\Pure HTML Project1.dll
+c:\users\kpkeenan\documents\visual studio 2012\Projects\Pure HTML Project1\Pure HTML Project1\obj\Debug\Pure HTML Project1.pdb

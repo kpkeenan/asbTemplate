@@ -1,0 +1,28 @@
+﻿
+.selected
+{
+outline-color: black;
+outline-style: none;
+background-color:lightyellow;
+text-align:center;
+
+}
+
+.alertnatingRows
+{
+
+background-color: #D3D3D3;
+
+}
+
+.center{
+text-align:center;
+}
+
+
+.rowHeaders
+{
+
+text-align:center;
+
+}
