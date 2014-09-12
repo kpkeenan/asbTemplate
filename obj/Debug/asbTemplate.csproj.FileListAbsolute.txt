@@ -3,3 +3,8 @@ c:\users\kpkeenan\documents\visual studio 2012\Projects\Pure HTML Project1\Pure 
 c:\users\kpkeenan\documents\visual studio 2012\Projects\Pure HTML Project1\Pure HTML Project1\obj\Debug\Pure HTML Project1.dll
 c:\users\kpkeenan\documents\visual studio 2012\Projects\Pure HTML Project1\Pure HTML Project1\obj\Debug\Pure HTML Project1.pdb
 C:\Users\kpkeenan\Documents\Visual Studio 2012\Projects\Pure HTML Project1\Pure HTML Project1\obj\Debug\asbTemplate.csprojResolveAssemblyReference.cache
+C:\Users\kpkeenan\Documents\GitHub\asbTemplate\bin\Pure HTML Project1.dll
+C:\Users\kpkeenan\Documents\GitHub\asbTemplate\bin\Pure HTML Project1.pdb
+C:\Users\kpkeenan\Documents\GitHub\asbTemplate\obj\Debug\asbTemplate.csprojResolveAssemblyReference.cache
+C:\Users\kpkeenan\Documents\GitHub\asbTemplate\obj\Debug\Pure HTML Project1.dll
+C:\Users\kpkeenan\Documents\GitHub\asbTemplate\obj\Debug\Pure HTML Project1.pdb

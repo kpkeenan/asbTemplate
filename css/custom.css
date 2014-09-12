@@ -1,10 +1,10 @@
 ﻿
 .selected
 {
-outline-color: black;
-outline-style: none;
-background-color:lightyellow;
+
+background-color:lightgrey;
 text-align:center;
+text-emphasis-color:white;
 
 }
 
