@@ -1,17 +1,24 @@
 ﻿
-.selected
+table
 {
 
-background-color:lightgrey;
+  max-height:75%;
+
+}
+
+.selected
+{
+    color:white;
+background-color:#DDD;
 text-align:center;
-text-emphasis-color:white;
+
 
 }
 
 .alertnatingRows
 {
 
-background-color: #D3D3D3;
+background-color: #EEE;
 
 }
 
