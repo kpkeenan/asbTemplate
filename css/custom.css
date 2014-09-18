@@ -8,19 +8,16 @@ th {
 
     color:white;
     background-color:#DDD;
+    height:55px;
+    padding-bottom:0px;
 
-
-}
-table
-{
-
-  max-height:75%;
 
 }
 
 .selected
 {
-    color:white;
+
+color:white;
 background-color:#DDD;
 text-align:center;
 
