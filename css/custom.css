@@ -1,15 +1,26 @@
 ﻿
+.table{
+    margin-bottom:0px;
+
+}
+
 th {
   text-align: center;
 }
 
+#mainTable{
 
-#dateHeader{
+    padding-bottom:50px
 
+}
+
+#eventDate{
+
+    font-size:35px;
+    text-align:center;
     color:white;
     background-color:#DDD;
     height:55px;
-    padding-bottom:0px;
 
 
 }
@@ -17,6 +28,9 @@ th {
 .selected
 {
 
+ outline-style: solid;
+ outline-color: black;
+ outline-width: thin;
 color:white;
 background-color:#DDD;
 text-align:center;

@@ -19,13 +19,12 @@
         <h4 class="modal-title">ASB 131 A/B Reservation Information</h4>
       </div>
       <div class="modal-body">
+            Enter date:
+          <div class="input-append date" id="date" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+              <input class="span2" size="16" type="text" value="12-02-2012" class="datepicker">
+              <span class="add-on"><i class="icon-th"></i></span>
+          </div>
 	<form>
-        Select date:
-        <div class="datepicker" id="dp2" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
-            <input class="span2" size="16" type="text" value="12-02-2012">
-            <span class="add-on"><i class="icon-th"></i></span>
-        </div>
-        <br />
         <div id="startTimes">
      </div>
     <hr>
@@ -47,10 +46,10 @@ Contact name/Ext: <input id="contact" type="text" name="contact"><hr>
 	<br>
 	
 <div class="bs-docs-example">
-     <table class="table table-bordered">
+     <table id="mainTable" class="table table-bordered main">
          <thead>
               <tr>
-                  <th id="dateHeader">Date goes here</th>
+                  <th id="eventDate"></th>
               </tr>
          </thead> 
      </table>
@@ -68,11 +67,12 @@ Contact name/Ext: <input id="contact" type="text" name="contact"><hr>
             
               </tbody>
             </table>
+    </div>
 
 <button id="print" class="btn btn-primary"type="button" data-dismiss="modal" data-target="#myModal">Print</button>
-          </div>
-		  
-     <script src="lib/jquery-1.11.1.js"></script>
+      
+	  
+    <script src="lib/jquery-1.11.1.js"></script>
     <script src="lib/bootstrap.js"></script>
 	<script src="lib/custom.js"></script>
     <script src="lib/bootstrap-datepicker.js"></script>
