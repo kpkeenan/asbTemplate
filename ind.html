@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="css/bootstrap.css"/>
     <link rel="stylesheet" href="css/bootstrap-theme.css"/>
 	<link rel="stylesheet" href="css/custom.css"/>
-    <link rel="stylesheet" href="css/datepicker.css" />
 </head>
 <body>
  
@@ -23,7 +22,7 @@
           <div class="input-append date" id="date" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
               <input data-ng-model="date" class="span2" size="16" type="text" value="12-02-2012" class="datepicker">
               <span class="add-on"><i class="icon-th"></i></span>
-          </div>
+          </div><hr/>
 	<form>
         <div id="startTimes">
      </div>
@@ -54,8 +53,8 @@ Contact name/Ext: <input id="contact" type="text" name="contact"><hr>
          </thead> 
      </table>
     </div>
-<div class="bs-docs-example">
-            <table class="table table-bordered">
+<div class="">
+            <table class="table fixTable">
               <thead>
                 <tr id="rowHeaders">
                   <th>Start Time</th>
@@ -67,10 +66,7 @@ Contact name/Ext: <input id="contact" type="text" name="contact"><hr>
             
               </tbody>
             </table>
-    </div>
-
-<button id="print" class="btn btn-primary"type="button" data-dismiss="modal" data-target="#myModal">Print</button>
-      
+    </div>  
 	  
     <script src="lib/jquery-1.11.1.js"></script>
     <script src="lib/bootstrap.js"></script>

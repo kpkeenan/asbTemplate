@@ -9,3 +9,9 @@ C:\Users\kpkeenan\Documents\GitHub\asbTemplate\obj\Debug\asbTemplate.csprojResol
 C:\Users\kpkeenan\Documents\GitHub\asbTemplate\obj\Debug\Pure HTML Project1.dll
 C:\Users\kpkeenan\Documents\GitHub\asbTemplate\obj\Debug\Pure HTML Project1.pdb
 C:\Users\kpkeenan\Documents\GitHub\asbTemplate\bin\Pure HTML Project1.dll.config
+C:\Users\mjmelendez\Documents\GitHub\asbTemplate\bin\Pure HTML Project1.dll.config
+C:\Users\mjmelendez\Documents\GitHub\asbTemplate\bin\Pure HTML Project1.dll
+C:\Users\mjmelendez\Documents\GitHub\asbTemplate\bin\Pure HTML Project1.pdb
+C:\Users\mjmelendez\Documents\GitHub\asbTemplate\obj\Debug\asbTemplate.csprojResolveAssemblyReference.cache
+C:\Users\mjmelendez\Documents\GitHub\asbTemplate\obj\Debug\Pure HTML Project1.dll
+C:\Users\mjmelendez\Documents\GitHub\asbTemplate\obj\Debug\Pure HTML Project1.pdb

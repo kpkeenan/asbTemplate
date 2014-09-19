@@ -1,38 +1,61 @@
-﻿
+﻿@page{
+    margin: 0in 0.5in 2.5in 0.5in;
+}
+
+
 .table{
     margin-bottom:0px;
+}
 
+.fixTable{
+    float:left;
+    width: 100%;
+    font-size:18px;
 }
 
 th {
   text-align: center;
+  display: block;
+  width: 33%;
+  float: left;
+}
+
+/*
+#tableBody>tr{
+    width: 100%;
+    float: left;
+    display: block;
+}
+*/
+
+/**/
+#tableBody>tr>td{
+  text-align: center;
+  display: block;
+  width: 33%;
+  height: 30px;
+  float: left;
 }
 
 #mainTable{
 
-    padding-bottom:50px
+
 
 }
 
 #todaysDate{
 
-    font-size:28px;
+    font-size:25px;
     text-align:center;
     color:white;
     background-color:#DDD;
-    height:55px;
-
-
+    height:40px;
 }
 
 .selected
 {
-
- outline-style: solid;
- outline-color: black;
- outline-width: thin;
-color:white;
-background-color:#DDD;
+color:#000;
+background-color:#B8B8B8;
 text-align:center;
 
 
@@ -41,7 +64,7 @@ text-align:center;
 .alertnatingRows
 {
 
-background-color: #EEE;
+background-color: #DDEBF7;                                                   /* HEADER COLORS */
 
 }
 
@@ -54,5 +77,22 @@ text-align:center;
 {
 
 text-align:center;
-
 }
+
+.rowHeaders>th{
+    display: table-row;
+    width: 100%;
+}
+
+#mainTable>thead>tr{
+    width: 100%;
+    background-color:#00F;
+    
+}
+
+#mainTable>thead>tr>th{
+    width: 100%;
+    background-color:#808080;                                                  /* HEADER COLORS */
+    border-bottom-color:#808080;
+}
+
