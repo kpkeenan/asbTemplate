@@ -45,7 +45,7 @@ Contact name/Ext: <input id="contact" type="text" name="contact"><hr>
 	<br>
 	
 <div class="bs-docs-example">
-     <table id="mainTable" class="table table-bordered main">
+     <table id="mainTable" class="table main">
          <thead>
               <tr>
                   <th id="todaysDate">{{date}}</th>
@@ -54,18 +54,18 @@ Contact name/Ext: <input id="contact" type="text" name="contact"><hr>
      </table>
     </div>
 <div class="">
-            <table class="table fixTable">
-              <thead>
-                <tr id="rowHeaders">
-                  <th>Start Time</th>
-                  <th>Event Name</th>
-                  <th>Contact name/Ext.</th>
-                </tr>
-              </thead>
-              <tbody id="tableBody">
-            
-              </tbody>
-            </table>
+    <table class="table fixTable timeTable">
+        <thead>
+            <tr id="rowHeaders">
+                <th>Start Time</th>
+                <th>Event Name</th>
+                <th>Contact name/Ext.</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody" class="timeTable">
+
+        </tbody>
+    </table>
     </div>  
 	  
     <script src="lib/jquery-1.11.1.js"></script>

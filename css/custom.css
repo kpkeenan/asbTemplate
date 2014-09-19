@@ -1,5 +1,5 @@
 ﻿@page{
-    margin: 0in 0.5in 2.5in 0.5in;
+    margin: 0in 0.5in 2.25in 0.5in;
 }
 
 
@@ -20,13 +20,11 @@ th {
   float: left;
 }
 
-/*
-#tableBody>tr{
-    width: 100%;
-    float: left;
-    display: block;
+
+.table{
+    border-color: none;
 }
-*/
+
 
 /**/
 #tableBody>tr>td{
@@ -38,9 +36,25 @@ th {
 }
 
 #mainTable{
+    border: 2px solid #000;
+    border-bottom: none;
+}
 
+.timeStamp{
+    border-left: 1px solid #000;
+}
 
+.topBorder{
+    border-top: 1px solid #000;
+}
 
+.bottomBorder{
+    border-bottom: 1px solid #000;
+}
+
+.timeTable{
+    border: 2px solid #000;
+    border-top: none;
 }
 
 #todaysDate{
@@ -96,3 +110,21 @@ text-align:center;
     border-bottom-color:#808080;
 }
 
+
+
+/* re-writing bootstrap rules */
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 8px; 
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 0px solid #ddd;
+}
+
+.table > thead > tr > th {
+  border-bottom: 2px solid #000;
+}
