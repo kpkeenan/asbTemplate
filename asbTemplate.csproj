@@ -60,12 +60,12 @@
     <Content Include="css\bootstrap-theme.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\custom.css" />
-    <Content Include="css\datepicker.css" />
+    <Content Include="css\jquery-ui.min.css" />
     <Content Include="ind.html" />
-    <Content Include="lib\bootstrap-datepicker.js" />
     <Content Include="lib\bootstrap.js" />
     <Content Include="lib\custom.js" />
     <Content Include="lib\jquery-1.11.1.js" />
+    <Content Include="lib\jquery-ui.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
