@@ -20,22 +20,29 @@
         <h4 class="modal-title">ASB 131 A/B Reservation Information</h4>
       </div>
       <div class="modal-body">
-            Enter date: (Day of week, followed by date in 'mm/dd/yyyy' format)
-          <div class="input-append date" id="date" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
-              <input data-ng-model="date" class="span2" size="16" type="text" value="12-02-2012" class="datepicker" id="alternate">
-                <div id="datePicker"></div>
-              <span class="add-on"><i class="icon-th"></i></span>
-          </div><hr/>
 	<form>
-        <div id="startTimes">
-     </div>
-    <hr>
-<div id="endTimes">
-</div>
-<hr>
-Event name: <input id="eventName" type="text" name="eventName"><hr>
-Contact name/Ext: <input id="contact" type="text" name="contact"><hr>
-</form>
+    <dl class="dl-horizontal">
+        <dt>Date</dt>
+        <dd>
+            <input data-ng-model="date" class="span2" size="33" type="text" value="12-02-2012" class="datepicker" id="alternate">
+            <br /><br/>
+            <div id="datePicker"></div>
+        </dd><br />
+
+        <dt>Start Time</dt>
+        <dd><div id="startTimes"></div></dd><br/>
+
+        <dt>End Time</dt>
+        <dd><div id="endTimes"></div></dd><br />
+
+        <dt>Event Name</dt>
+        <dd><input id="eventName" type="text" name="eventName"></dd><br />
+
+        <dt>Contact/Ext.</dt>
+        <dd><input id="contact" type="text" name="contact"></dd>
+    </dl>
+    </form>
+
       </div>
       <div class="modal-footer">
         <button type="button"  data-dismiss="modal">Close</button>
