@@ -29,10 +29,10 @@
     font-size:18px;
 }
 
-th {
+.thHeader {
   text-align: center;
   display: block;
-  width: 33%;
+  width: 60%;
   float: left;
 }
 
@@ -46,17 +46,25 @@ th {
 #tableBody>tr>td{
   text-align: center;
   display: block;
-  width: 33%;
+   width: 60%;
   height: 30px;
   float: left;
 }
 
+#tableBody > tr td:first-child {
+    width: 15%;
+}
+
 #tableBody > tr td:last-child {
-    width: 34%;
+    width: 25%;
+}
+
+.table > thead > tr th:first-child {
+    width: 15%;
 }
 
 .table > thead > tr th:last-child {
-    width: 34%;
+    width: 25%;
 }
 
 #mainTable{
@@ -89,7 +97,7 @@ table tr td { padding: 2px 3px 2px 3px; vertical-align: top; border-collapse: co
 .selected
 {
 
-color:#fff;
+color:#000;
 background-color:#DDD;
 text-align:center;
 
@@ -99,7 +107,7 @@ text-align:center;
 .alertnatingRows
 {
 
-background-color: #E7E7E7; /*  */                                                   /* HEADER COLORS */
+background-color: #EEE; /*  */                                                   /* HEADER COLORS */
 
 }
 
