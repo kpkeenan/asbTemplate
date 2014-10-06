@@ -2,6 +2,14 @@
     margin: 0in 0.5in 2.25in 0.5in;
 }
 
+@media print{
+    #relaunch {
+
+        display:none !important;
+
+
+    }
+}
 /* re-writing bootstrap rules */
 .table > thead > tr > th,
 .table > tbody > tr > th,
