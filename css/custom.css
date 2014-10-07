@@ -150,3 +150,7 @@ table tr td {
 .table > tbody > tr > td.firstborder{
     border-top: 1px solid #B8B8B8;
 }
+
+dt{
+    margin-bottom: 20px;
+}
