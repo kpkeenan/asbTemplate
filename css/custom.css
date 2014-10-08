@@ -87,7 +87,11 @@ table tr td { padding: 2px 3px 2px 3px; vertical-align: top; border-collapse: co
 }
 
 .dotted{
-    border-left: 1px dotted #000;
+     border-left: 1px dotted #000;
+}
+
+.strictRightDotted{
+ border-right: 1px dotted #000;
 }
 
 .timeTable{
