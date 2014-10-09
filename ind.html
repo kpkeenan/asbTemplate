@@ -1,87 +1,99 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title></title>
-    <link rel="stylesheet" href="css/bootstrap.css"/>
-    <link rel="stylesheet" href="css/bootstrap-theme.css"/>
-	<link rel="stylesheet" href="css/custom.css"/>
-    <link rel="stylesheet" href="css/jquery-ui.min.css" />
+    <head>
+        <title>ASB 131A/B Template</title>
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/bootstrap-theme.css" />
+        <link rel="stylesheet" href="css/custom.css" />
+        <link rel="stylesheet" href="css/jquery-ui.min.css" />
+    </head>
+    <body>
 
-</head>
-<body>
- 
+        <!-- modal -->
+        <div id=myModal class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                        </button>
+                        <h4 class="modal-title">ASB 131 A/B Reservation Information</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <dl class="dl-horizontal">
+                                <dt>Room</dt>
+                                <dd>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="roomID" id="roomA" value="A"> A
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="roomID" id="roomB" value="B"> B
+                                    </label>
+                                </dd>
 
-	
-<div id=myModal class="modal fade">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title">ASB 131 A/B Reservation Information</h4>
-      </div>
-      <div class="modal-body">
-	<form>
-    <dl class="dl-horizontal">
-        <dt>Date</dt>
-        <dd>
-            <input class="span2" size="33" type="text" value="12-02-2012" class="datepicker" id="alternate">
-            <br /><br/>
-            <div id="datePicker"></div>
-        </dd><br />
+                                <dt>Date</dt>
+                                <dd>
+                                    <input class="span2 datepicker" size="33" type="text" id="datePicker">
+                                </dd>
 
-        <dt>Start Time</dt>
-        <dd><div id="startTimes"></div></dd><br/>
+                                <dt>Start Time</dt>
+                                <dd><div id="startTimes"></div></dd>
 
-        <dt>End Time</dt>
-        <dd><div id="endTimes"></div></dd><br />
+                                <dt>End Time</dt>
+                                <dd><div id="endTimes"></div></dd>
 
-        <dt>Event Name</dt>
-        <dd><input id="eventName" type="text" name="eventName"></dd><br />
+                                <dt>Event Name</dt>
+                                <dd><input id="eventName" size="33" type="text" name="eventName"></dd>
 
-        <dt>Contact/Ext.</dt>
-        <dd><input id="contact" type="text" name="contact"></dd>
-    </dl>
-    </form>
+                                <dt>Contact/Ext.</dt>
+                                <dd><input id="contact" size="33" type="text" name="contact"></dd>
+                            </dl>
+                        </form>
 
-      </div>
-      <div class="modal-footer">
-        <button type="button"  data-dismiss="modal">Close</button>
-        <button id="submit" type="button" class="btn btn-primary">Add event</button>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-	
-	<br>
-	
-<div class="bs-docs-example">
-     <table id="mainTable" class="table main">
-         <thead>
-              <tr>
-                  <th id="todaysDate"></th>
-              </tr>
-         </thead> 
-     </table>
-    </div>
-<div class="">
-    <table class="table fixTable timeTable">
-        <thead>
-            <tr id="rowHeaders">
-                <th class="thHeader">Time</th>
-                <th class="thHeader">Name</th>
-                <th class="thHeader">Contact/Ext.</th>
-            </tr>
-        </thead>
-        <tbody id="tableBody" class="timeTable">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" data-dismiss="modal">Close</button>
+                        <button id="submit" type="button" class="btn btn-primary">Add event</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        <!-- #modal -->
 
-        </tbody>
-    </table>
-    </div> 
-    <button id="relaunch" type="button" class="btn btn-primary">Relaunch Modal</button>
-    <script src="lib/jquery-2.1.1.js"></script>
-    <script src="lib/bootstrap.js"></script>
-	<script src="lib/custom.js"></script>
-    <script src="lib/jquery-ui.min.js"></script>
+        <!-- title/date -->
+        <div class="bs-docs-example">
+            <table id="mainTable" class="table main">
+                <thead>
+                    <tr>
+                        <th id="todaysDate"></th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <!-- #title/date -->
 
+        <!-- main-table -->
+        <div class="">
+            <table class="table fixTable timeTable">
+                <thead>
+                    <tr id="rowHeaders">
+                        <th class="thHeader">Time</th>
+                        <th class="thHeader">Name</th>
+                        <th class="thHeader">Contact/Ext.</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody" class="timeTable"></tbody>
+            </table>
+        </div>
+        <!-- #main-table -->
+
+        <button id="relaunch" type="button" class="btn btn-primary">Relaunch Modal</button>
+
+        <!-- Load JavaScript -->
+        <script src="lib/jquery-2.1.1.js"></script>
+        <script src="lib/bootstrap.js"></script>
+        <script src="lib/custom.js"></script>
+        <script src="lib/jquery-ui.min.js"></script>
     </body>
 </html>
