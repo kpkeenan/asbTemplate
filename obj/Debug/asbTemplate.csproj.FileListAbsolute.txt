@@ -15,3 +15,9 @@ C:\Users\mjmelendez\Documents\GitHub\asbTemplate\bin\Pure HTML Project1.pdb
 C:\Users\mjmelendez\Documents\GitHub\asbTemplate\obj\Debug\asbTemplate.csprojResolveAssemblyReference.cache
 C:\Users\mjmelendez\Documents\GitHub\asbTemplate\obj\Debug\Pure HTML Project1.dll
 C:\Users\mjmelendez\Documents\GitHub\asbTemplate\obj\Debug\Pure HTML Project1.pdb
+C:\Workspace\asbTemplate\bin\Pure HTML Project1.dll.config
+C:\Workspace\asbTemplate\bin\Pure HTML Project1.dll
+C:\Workspace\asbTemplate\bin\Pure HTML Project1.pdb
+C:\Workspace\asbTemplate\obj\Debug\asbTemplate.csprojResolveAssemblyReference.cache
+C:\Workspace\asbTemplate\obj\Debug\Pure HTML Project1.dll
+C:\Workspace\asbTemplate\obj\Debug\Pure HTML Project1.pdb
