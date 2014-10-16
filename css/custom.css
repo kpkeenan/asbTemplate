@@ -79,7 +79,13 @@
     border: 2px solid #000;
     border-bottom: none;
 }
+.success{
+    color:green;
+}
 
+.error{
+    color:darkred;
+}
 table tr td { 
     padding: 2px 3px 2px 3px; 
     vertical-align: top; 
